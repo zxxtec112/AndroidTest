@@ -15,5 +15,5 @@ public interface Weather51Service {
     Call<WeatherResult> getResult(
         @Query("cityCode") String cityNumber,
         @Query("weatherType") int weatherType
-            )
+            );
 }

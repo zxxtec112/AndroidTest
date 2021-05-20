@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements WeatherListener,V
                 weatherModel.getWeather(etcityno.getText().toString(),this);
                 break;
             case R.id.button2:
+                WeatherModel weather51Model=new WeatherModel();
+                weather51Model.getWeather(etcityno.getText().toString(),this);
                 break;
             default:
                 break;
