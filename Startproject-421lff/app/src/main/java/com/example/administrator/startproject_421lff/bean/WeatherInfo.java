@@ -11,6 +11,15 @@ public class WeatherInfo {
     private  String WS;
     private  String SD;
 
+    private  String cityid;
+    public String getCityid() {
+        return cityid;
+    }
+
+    public void setCityid(String cityid) {
+        this.cityid = cityid;
+    }
+
     public String getCity() {
         return city;
     }
