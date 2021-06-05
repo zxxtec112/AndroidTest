@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="98dp"
+        app:srcCompat="@drawable/e"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="237dp"
+        android:layout_height="87dp"
+        android:weightSum="1"
+        android:layout_weight="0.83">
+
+        <TextView
+            android:text="我们"
+            android:layout_width="132dp"
+            android:layout_height="54dp"
+            android:id="@+id/textView20"
+            android:textSize="30sp" />
+
+        <TextView
+            android:text="中午吃鸡公煲还是麻辣烫..."
+            android:layout_width="match_parent"
+            android:id="@+id/textView33"
+            android:textSize="20sp"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="127dp"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="3月21日"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/textView23"
+        android:layout_weight="1" />
+
+</LinearLayout>
